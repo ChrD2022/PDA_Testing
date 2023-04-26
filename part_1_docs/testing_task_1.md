@@ -16,14 +16,14 @@ Only comment on errors that would stop the tests running.
 
 class CardGame:
 
-# should be == for card.value = 1
+# should be == for card.value = 1, : missing from the else.
   def check_for_ace(self, card):
     if card.value = 1:
       return True
     else
       return False
    
-# this is called 'dif' not def. there is also no , separating cards 1 & 2.
+# this is called 'dif' not def. there is also no "," separating cards 1 & 2. The indentation is not correct. return card should be return card1.
   dif highest_card(self, card1 card2):
   if card1.value > card2.value:
     return card
@@ -31,7 +31,7 @@ class CardGame:
     return card2
   
 
-#  total is not defined as anything, should be total = 0. return is in the for loop so will  make a statement each time a card is added
+#  total is not defined as anything, should be total = 0. return is in the for loop so will  make a statement each time a card is added, the method is not indented.
 def cards_total(self, cards):
   total
   for card in cards:
